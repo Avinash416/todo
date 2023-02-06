@@ -34,7 +34,7 @@ const App = () => {
     return (<div>
             <div className="flex flex-row justify-center content-center mt-2 p-2">
                 <img src={reactIcon} alt="React" className="w-10 animate-spin-slow"/>
-                <h1 className="text-4xl">Todos 2🗂️</h1>
+                <h1 className="text-4xl">Todos 4🗂️</h1>
             </div>
             <div className="w-full">
                 <CreateForm onSubmit={addTodo}/>
